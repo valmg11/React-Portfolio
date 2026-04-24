@@ -6,8 +6,11 @@ function Navbar() {
                     Hi
                 </h3>
                 <ul>
+                     <li>
+                        <a className="nav" href="#about">About</a>
+                    </li>
                     <li>
-                        <a href="#about">Projects</a>
+                        <a className="nav" href="#about">Projects</a>
                     </li>
                 </ul>
             </div>
