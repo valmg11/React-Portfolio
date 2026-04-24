@@ -37,11 +37,42 @@
   }
 }
 
+/* nav bar pages */
+.navBar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  gap: 60px;
+}
+
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  color: lightblue;
+}
+/* 
+.aboutDiv, .projectDiv {
+  margin-top: 800px;
+} */
+
+.introDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.introScreen {
+  /* margin: 200px; */
+  margin-top: 300px;
 }
