@@ -77,3 +77,53 @@ a:hover {
   /* margin: 200px; */
   margin-top: 300px;
 }
+
+.contactDiv {
+  margin-bottom: 50px;
+}
+
+input {
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+}
+
+.project1, .project2, .project3 {
+  width: 1250px;
+  height: 400px;
+  background-color: lightblue;
+  border-radius: 15px;
+}
+
+.project1Img {
+  width: 40%;
+}
+
+.project1Flex, .project2Flex, .project3Flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  background-color: red;
+}
+
+.contact1 {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.contact2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit {
+  width: 100px;
+}
+
+.footerText {
+  font-size: 15px;
+}
