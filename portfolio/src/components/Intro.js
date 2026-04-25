@@ -2,7 +2,7 @@ function Intro() {
     return (
         <>
         <div className="introScreen">
-            <h2>Intro div</h2>
+            <h2>Intro</h2>
         </div>
         <div className="introDiv" id="intro">
             <div>

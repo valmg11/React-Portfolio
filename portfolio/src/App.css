@@ -43,14 +43,15 @@
   flex-direction: row;
   position: fixed;
   top: 0;
-  gap: 60px;
+  left: 0;
+  gap: 100px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 50px;
 }
 
 a {
