@@ -7,19 +7,21 @@ import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
-
+const sections = [
+  "I'm Valentina Gandolfo", "About Me", "My Projects", "Contact Me!"
+];
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        <Intro/>
+        <Intro data={sections}/>
 
         {/* <p>hi</p> */}
-        <About/>
-        <Projects/>
-        <Contact/>
+        <About data={sections}/>
+        <Projects data={sections}/>
+        <Contact data={sections}/>
 
         <Footer/>
       </header>

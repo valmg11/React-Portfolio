@@ -1,19 +1,21 @@
-function About() {
+function About(props) {
     return (
        <>
+       <section id="about">
         <div>
-            <h2>About Me</h2>
+            <h2>{props.data[1]}</h2>
         </div>
-        <div className="aboutDiv" id="about">
+        <div className="aboutDiv">
             <div>
-                <p>Im a junior at UCF</p>
-                <p>tsuki chan katsunori<br></br> yo chan</p>
+                <p>I'm a Web Development student at the University of Central Florida <br></br>on track to obtain my Bachlor's degree.</p>
+                <p>I'm passionate about designing and music, and would love to obtain a role in the future in UI/UX design.</p>
             </div>
             {/* <div>
                 <p>block 2</p>
                 <p>tsuki</p>
             </div> */}
         </div>
+        </section>
         </>
     );
 }

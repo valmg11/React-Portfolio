@@ -1,19 +1,21 @@
-function Intro() {
+function Intro(props) {
     return (
         <>
-        <div className="introScreen">
-            <h2>Intro</h2>
-        </div>
-        <div className="introDiv" id="intro">
-            <div>
-                <p>Hi blah blah blah</p>
-                <p>Im Val, a web developer <br></br> at UCF blah blah</p>
+        <section id="intro">
+            <div className="introScreen">
+                <h2>{props.data[0]}</h2>
             </div>
-            <div>
-                <p>block 2</p>
-                <p>tsuki</p>
+            <div className="introDiv">
+                <div>
+                    <p>Welcome to my portfolio!</p>
+                    <p>I'm a web developer <br></br>based in Orlando, FL</p>
+                </div>
+                <div>
+                    <p>block 2</p>
+                    <p>tsuki</p>
+                </div>
             </div>
-        </div>
+        </section>
         </>
     );
 }
